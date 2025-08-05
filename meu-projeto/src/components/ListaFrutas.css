@@ -1,0 +1,45 @@
+.lista-frutas-container {
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.lista-frutas-container h3 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.lista-frutas {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.item-fruta {
+  background-color: #f8f9fa;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border-left: 4px solid #ff6b6b;
+  text-align: left;
+}
+
+.botao-adicionar {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botao-adicionar:hover {
+  background-color: #45a049;
+}
+
+.botao-adicionar:active {
+  transform: scale(0.98);
+}
